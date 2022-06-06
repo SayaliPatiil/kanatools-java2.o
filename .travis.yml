@@ -1,0 +1,23 @@
+language: java
+sudo: false
+jdk:
+  - oraclejdk8
+  - oraclejdk7
+  - openjdk7
+
+install:
+  - ./gradlew clean
+
+script:
+  - ./gradlew assemble
+  - ./gradlew check
+  - ant jar
+  - bash sample/test-sample.sh
+
+after_success:
+  - ./gradlew jacocoTestReport coveralls
+
+notifications:
+  email:
+    on_success: change
+    on_failure: change
