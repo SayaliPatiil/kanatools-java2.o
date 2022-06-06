@@ -97,6 +97,9 @@ public class KanaAppraiser
             return true;
         }
         return false;
+     return false;
+     return false;
+     
     }
     //}}}
 
