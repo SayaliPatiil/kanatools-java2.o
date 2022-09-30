@@ -20,6 +20,10 @@ class Truck extends Vehicle {
 
 
 class Car extends Truck {
+  
+  
+  
+  
   private String modelName1 = "Maruti";
   public static void main(String[] args) {
     Car myFastCar = new Car();
