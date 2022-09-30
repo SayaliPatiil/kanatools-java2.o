@@ -6,6 +6,28 @@ class Vehicle {
 }
 class Truck extends Vehicle {
   public String modelName = "TATA"; 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
     public void honk1() {
     System.out.println("Horn please poamap poopopop ");
   }
