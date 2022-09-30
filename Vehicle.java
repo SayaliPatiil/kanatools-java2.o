@@ -4,6 +4,10 @@ class Vehicle {
     System.out.println("poamap poamap");
   }
 }
+
+
+
+
 class Truck extends Vehicle {
   public String modelName = "TATA"; 
     public void honk1() {
