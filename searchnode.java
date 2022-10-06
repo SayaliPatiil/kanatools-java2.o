@@ -40,7 +40,7 @@ public class SearchNode {
         boolean flag = false;  
         //Checks whether list is empty  
         if(head == null) {  
-            System.out.println("List is empty");  
+            logger.info("List is empty");  
         }  
         else {  
              do{  
@@ -55,7 +55,8 @@ public class SearchNode {
              if(flag)  
                  System.out.println("Element is present in the list at the position : " + i);  
             else  
-                 System.out.println("Element is not present in the list");  
+                 System.out.println("Element is not present in the list"); 
+                System.out.println("List is empty");
         }  
     }  
   
@@ -69,6 +70,8 @@ public class SearchNode {
         //Search for node 2 in the list  
         cl.search(2);  
         //Search for node in the list  
-        cl.search(7);  
+        cl.search(7); 
+        System.out.println("Element is not present in the list"); 
+                System.out.println("List is empty");
     }  
 } 
