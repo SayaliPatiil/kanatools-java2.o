@@ -56,7 +56,17 @@ public class SearchNode {
                  System.out.println("Element is present in the list at the position : " + i);  
             else  
                  System.out.println("Element is not present in the list"); 
-                System.out.println("List is empty");
+            
+                 System.out.println("List is empty");
+           
+            System.out.println("Element is not present in the list"); 
+            
+                 System.out.println("List is empty");
+            
+            System.out.println("Element is not present in the list"); 
+            
+                 System.out.println("List is empty");
+            
         }  
     }  
   
