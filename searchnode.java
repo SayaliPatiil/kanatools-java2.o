@@ -48,6 +48,9 @@ public class SearchNode {
                 if(current.data ==  element) {  
                     flag = true;  
                     break;  
+                    System.out.println("Element is not present in the list"); 
+            
+                 System.out.println("List is empty");
                 }  
                 current = current.next;  
                 i++;  
