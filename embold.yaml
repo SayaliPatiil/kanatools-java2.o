@@ -29,8 +29,8 @@ sources:
 #      enabled: true
 #      rules:
 #         - key: 'EMB-JAVA-10'
-#           enabled: false
+#           enabled: true
 #    - name: pmd
-#      enabled: false
+#      enabled: true
 
 ## Please visit https://docs.embold.io/v2-quick-start-guide/#update-configurations to know more
